@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios, '9.0'
+ platform :ios, '14.0'
 
 target 'Quran' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -11,10 +11,13 @@ target 'Quran' do
 pod 'IQKeyboardManagerSwift'
 pod 'NVActivityIndicatorView'
 pod 'SlideMenuControllerSwift' #, :git => 'https://github.com/Kiswe/SlideMenuControllerSwift.git', :branch => "master"
-pod 'SQLite.swift', '~> 0.11.4'
+pod 'SQLite.swift'
+#, '~> 0.11.4'
 pod 'FontBlaster'
-pod 'Toast-Swift', '~> 3.0.1'
-pod "PromiseKit", "~> 6.0"
+pod 'Toast-Swift' 
+#'~> 3.0.1'
+pod "PromiseKit"
+#, "~> 6.0"
 end
 
 post_install do |installer|
